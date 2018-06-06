@@ -10,11 +10,11 @@
 class Client{
 public:
 
-    int czas_transakcji;
+    int trans_time;
     int hall;
 
     Client(int transaction_time, int hall) {
-        this -> czas_transakcji = transaction_time;
+        this -> trans_time = transaction_time;
         this -> hall = hall;
     }
 

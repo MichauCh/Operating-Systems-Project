@@ -7,7 +7,7 @@
 
 class Cinema_hall {
 public:
-    int seats = 532;
+    int seats = 128;
     int population = 0;
     int nr;
     bool movie = false;
